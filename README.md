@@ -3,7 +3,7 @@ Node.js task - chat backend
 
 List of supported routes:
 
-*/api/user/_id
+* /api/user/_id
 All CRUD operations for the route are supported. The route /api/user supports GET verb and returns the list of all users.
 The data is returned in the following format:
 
@@ -18,7 +18,7 @@ EXAMPLE:
     }
 
 
-*/api/message/_id
+* /api/message/_id
 All CRUD operations for the route are supported.The data is returned in the following format:
 
 EXAMPLE:
@@ -30,6 +30,6 @@ EXAMPLE:
         "age": 2,
         "__v": 0
     } 
-*/api/communicators/_id
+* /api/communicators/_id
 The route supports GET verb and returns the list of all communicators of the user with given _id.
  
